@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dbmigrate:
+    build: .
+    environment:
+      - MONGODB_URI
+      - AWS_REGION=us-west-2
